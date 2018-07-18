@@ -1,0 +1,16 @@
+# conda env create -f environment.yml
+name: cdsdemo
+channels:
+  - birdhouse
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  - birdhouse-birdy>=0.3.3
+  - owslib>=0.17
+  - python-cdo
+  - pip:
+    - cdsapi=0.1.1
