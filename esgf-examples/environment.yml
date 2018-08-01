@@ -10,3 +10,5 @@ dependencies:
     - netcdf4
     - pynco
     - python-cdo
+    - pydap
+    - xarray
