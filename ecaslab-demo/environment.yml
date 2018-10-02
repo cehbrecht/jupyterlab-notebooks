@@ -9,8 +9,8 @@ dependencies:
   - jupyterlab
   - ipywidgets
   - nodejs
-  - birdhouse-birdy>=0.3.3
-  - owslib>=0.17
+  - birdhouse-birdy>=0.4.2
+  - owslib>=0.17.0
   - python-cdo
   - pyophidia
   - cartopy
