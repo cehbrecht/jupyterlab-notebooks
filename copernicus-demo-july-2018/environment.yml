@@ -9,7 +9,7 @@ dependencies:
   - jupyterlab
   - ipywidgets
   - nodejs
-  - birdhouse-birdy>=0.3.3
+  - birdhouse-birdy>=0.4
   - owslib>=0.17
   - python-cdo
   - pip:
