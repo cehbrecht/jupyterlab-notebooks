@@ -1,0 +1,19 @@
+# conda env create -f environment.yml
+name: cwtdemo
+channels:
+  - conda-forge
+  - cdat
+  - birdhouse
+dependencies:
+  - python=2.7
+  # juputer
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  # esgf cwt api
+  - esgf-compute-api
+  # owslib esgfwps
+  # - owslib>=0.17
+  - owslib-esgfwps
+  - pip:
+    - -e git+https://github.com/bird-house/OWSLib.git@esgfwps#egg=owslib
