@@ -1,0 +1,10 @@
+# conda env create -f environment.yml
+name: xrdemo
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  # jupyter
+  - jupyterlab
+  # xarray
+  - xarray
