@@ -1,0 +1,13 @@
+# conda env create -f environment.yml
+name: esgfdemo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=2.7
+  - pip
+  # jupyter
+  - jupyterlab
+  # ESGF
+  - esgf-pyclient
+  - myproxyclient
