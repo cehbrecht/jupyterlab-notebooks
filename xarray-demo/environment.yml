@@ -2,8 +2,9 @@
 name: xrdemo
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.7
   - pip
   # jupyter
   - jupyterlab
@@ -12,6 +13,4 @@ dependencies:
   - dask
   - netcdf4
   - matplotlib
-  # ESGF
-  - esgf-pyclient
-  - myproxyclient
+  - xesmf
