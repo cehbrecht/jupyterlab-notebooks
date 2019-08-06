@@ -10,9 +10,12 @@ dependencies:
   - jupyterlab
   # esgf
   - esgf-pyclient
+  #- myproxyclient
   # xarray
   - xarray
   - dask
   - netcdf4
   - matplotlib
   - xesmf
+  - pip:
+    - myproxyclient
