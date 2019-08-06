@@ -8,6 +8,8 @@ dependencies:
   - pip
   # jupyter
   - jupyterlab
+  # esgf
+  - esgf-pyclient
   # xarray
   - xarray
   - dask
