@@ -19,4 +19,4 @@ Install JupyterLab widget extension:
 
 ## Online Demo
 
-[https://nbviewer.jupyter.org/github/cehbrecht/jupyterlab-notebooks/tree/master/cchecker-demo](NBViewer)
+https://nbviewer.jupyter.org/github/cehbrecht/jupyterlab-notebooks/tree/master/cchecker-demo
