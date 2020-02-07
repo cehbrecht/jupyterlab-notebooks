@@ -1,0 +1,8 @@
+# conda env create -f environment.yml
+name: demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - esgf-pyclient
+  - birdy
