@@ -17,5 +17,6 @@ dependencies:
   - netcdf4
   - matplotlib
   - xesmf
+  - zarr
   - pip:
     - myproxyclient
