@@ -1,10 +1,9 @@
 # conda env create -f environment.yml
 name: xrdemo
 channels:
-  - defaults
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3
   - pip
   # jupyter
   - jupyterlab
@@ -18,5 +17,7 @@ dependencies:
   - matplotlib
   - xesmf
   - zarr
-  - pip:
-    - myproxyclient
+  - cdo
+  - python-cdo  
+  #- pip:
+  #  - myproxyclient
