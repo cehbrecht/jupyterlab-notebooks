@@ -1,0 +1,12 @@
+# conda env create -f environment.yml
+name: intake 
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  # jupyter
+  - jupyterlab
+  # intake
+  - intake
+  - intake-stac  
