@@ -10,3 +10,4 @@ dependencies:
   # intake
   - intake
   - intake-stac  
+  - intake-xarray  
